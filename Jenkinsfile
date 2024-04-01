@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/NaseemKhan005/react-bank-app'
+                git 'https://github.com/ZoyaSumbul/Jenkins.git'
             }
         }
         stage('Dependency Installation') {
